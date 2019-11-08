@@ -22,7 +22,7 @@ public class Alumno {
 	@Validacion
 	private String Dni;
 	
-	@Pattern(regexp="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,4}",message="NIF incorrecto")
+	@Pattern(regexp="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,4}",message="E-mail incorrecto")
 	private String Email;
 	
 	private String Becado;

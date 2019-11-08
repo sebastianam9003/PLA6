@@ -15,19 +15,19 @@
 <body>
 <h1>Alta de Alumno</h1>
 <form:form action="procesar" modelAttribute="alumno">
-		Nombre:<form:input path="nombre" />
-			<form:errors path="nombre" cssClass="error" />
+		Nombre:<form:input path="Nombre" />
+			<form:errors path="Nombre" cssClass="error" />
 		<br />
-		DNI:<form:input path="dni" />
-			<form:errors path="dni" cssClass="error" />
+		DNI:<form:input path="Dni" />
+			<form:errors path="Dni" cssClass="error" />
 		<br />
-		E-Mail:<form:input path="email" />
-			<form:errors path="email" cssClass="error" />
+		E-Mail:<form:input path="Email" />
+			<form:errors path="Email" cssClass="error" />
 		<br />
-		Becado:<form:radiobuttons path="becado"
+		Becado:<form:radiobuttons path="Becado"
 		items="${alumno.listaBecado}" />
 		<br />
-		Asignatura: <form:select path="asignatura">
+		Asignatura: <form:select path="Asignatura">
 			<form:options items="${alumno.listaAsignaturas}" />
 		</form:select>
 		<br />
